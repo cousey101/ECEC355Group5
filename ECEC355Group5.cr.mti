@@ -1,9 +1,12 @@
-C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd {0 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd
+C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd
 Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
 -- Loading package STANDARD
-** Error: C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd(1): near "import": syntax error
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity OR2
+-- Compiling architecture beh of OR2
 
-} {4.0 5.0} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd
+} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd
 Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -63,9 +66,12 @@ Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
 -- Compiling entity MUX3
 -- Compiling architecture Behavioral of MUX3
 
-} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd {0 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd
+} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd
 Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
 -- Loading package STANDARD
-** Error: C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd(1): near ".": expecting IDENTIFIER
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND2
+-- Compiling architecture beh of AND2
 
-} {4.0 5.0} {}}
+} {} {}}

@@ -30,8 +30,16 @@ ARCHITECTURE beh of ALU1b is
 		      s : in STD_LOGIC_VECTOR(1 downto 0);
 				  y : out STD_LOGIC );
 	end component;
+	component OR2 is
+		port(	A, B :in STD_LOGIC;
+				  y :out STD_LOGIC );
+	end component;
+	component AND2 is
+		port(	A, B : in STD_LOGIC;
+				  y :out STD_LOGIC );
+	end component;
 	signal Sum:STD_LOGIC;
 	signal sumCOut:STD_LOGIC;
 begin  
-  ADD:ADD1b port map(A,B,Sum,sumCOut);
+  ADD:ADD1b port map(A,B,Sum,sumCOut);  
 end beh;

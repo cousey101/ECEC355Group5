@@ -47,7 +47,7 @@ R13
 !s100 UJ]0>K?VUI`@^giS326Fo2
 !i10b 1
 Ealu1b
-Z14 w1422911663
+Z14 w1422912189
 Z15 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 Z16 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
 Z17 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
@@ -59,49 +59,49 @@ Z19 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/ALU1b.vhd
 l0
 L6
 VkeHl4WS6l<2gNfR;ZnbU]1
+!s100 UL6b7TEf6>=HGUo[;Ob;92
 R8
 32
-Z20 !s108 1422911707.358000
+!i10b 1
+Z20 !s108 1422912197.924000
 Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/ALU1b.vhd|
 Z22 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/ALU1b.vhd|
 R12
 R13
-!s100 UL6b7TEf6>=HGUo[;Ob;92
-!i10b 1
 Abeh
 R15
 R16
 R17
 R3
 R4
-DEx4 work 5 alu1b 0 22 keHl4WS6l<2gNfR;ZnbU]1
-l35
+Z23 DEx4 work 5 alu1b 0 22 keHl4WS6l<2gNfR;ZnbU]1
+l43
 L13
-VE]4@Ue_M?:bAj9FDJ<cO@2
+V9DJQ9h_5ba19JXK[Tm6^l2
+!s100 8Y]6:I1LINJ2:BgJ[[[@32
 R8
 32
+!i10b 1
 R20
 R21
 R22
 R12
 R13
-!s100 ]=E<JWjhRUMz=m9heR>3n1
-!i10b 1
 Eand2
-Z23 w1422911701
+Z24 w1422911701
 R3
 R4
 R5
-Z24 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd
-Z25 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd
+Z25 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd
+Z26 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd
 l0
 L4
 V5WHKZYf@6BJZ?HRVeA=HK0
 R8
 32
-Z26 !s108 1422911704.391000
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd|
-Z28 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd|
+Z27 !s108 1422911704.391000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd|
+Z29 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd|
 R12
 R13
 !s100 U@WahSibXKfWPc;LbPg000
@@ -115,28 +115,28 @@ L9
 VQC^RQeTILbdRhB@0einnm1
 R8
 32
-R26
 R27
 R28
+R29
 R12
 R13
 !s100 lU:7X@zJekK49e0<UWDfm0
 !i10b 1
 Emux2
-Z29 w1422911381
+Z30 w1422911381
 R3
 R4
 R5
-Z30 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd
-Z31 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd
+Z31 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd
+Z32 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd
 l0
 L5
 VF]F?]Uma0IjzV1E]eAVbB3
 R8
 32
-Z32 !s108 1422911384.365000
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd|
-Z34 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd|
+Z33 !s108 1422911384.365000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd|
+Z35 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd|
 R12
 R13
 !s100 QHmhad[ZokP0^XbIGN74P0
@@ -150,28 +150,28 @@ L12
 VamhKUaOZYURBObQ^<5:P30
 R8
 32
-R32
 R33
 R34
+R35
 R12
 R13
 !s100 NUkILOFDUl[B2da_LgzTh3
 !i10b 1
 Emux3
-Z35 w1422911390
+Z36 w1422911390
 R3
 R4
 R5
-Z36 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd
-Z37 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd
+Z37 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd
+Z38 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd
 l0
 L5
 VmfJ1QlOQo0]?D;mzjb2S>2
 R8
 32
-Z38 !s108 1422911393.561000
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd|
-Z40 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd|
+Z39 !s108 1422911393.561000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd|
+Z41 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd|
 R12
 R13
 !s100 b2QZKfU71AJ`GaYzH2eR`3
@@ -185,32 +185,32 @@ L12
 VCRRfVVSfHVNd=iX=>:_MQ0
 R8
 32
-R38
 R39
 R40
+R41
 R12
 R13
 !s100 7[B>>h25XDz4z7SDk5oT;3
 !i10b 1
 Eor2
-Z41 w1422911778
+Z42 w1422911778
 R3
 R4
 R5
-Z42 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd
-Z43 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd
+Z43 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd
+Z44 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd
 l0
 L4
 V1jbNJMQGcl::L]W@l`G<n2
-!s100 ILe?n=CH?I;f2oRW`=<MH3
 R8
 32
-!i10b 1
-Z44 !s108 1422911778.493000
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd|
-Z46 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd|
+Z45 !s108 1422911778.493000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd|
+Z47 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd|
 R12
 R13
+!s100 ILe?n=CH?I;f2oRW`=<MH3
+!i10b 1
 Abeh
 R3
 R4
@@ -218,31 +218,31 @@ DEx4 work 3 or2 0 22 1jbNJMQGcl::L]W@l`G<n2
 l11
 L9
 V`lA]kAZ:CcSja60@WEEKM0
-!s100 ;Z0a7FeNCFJnU;]T2Jd8H3
 R8
 32
-!i10b 1
-R44
 R45
 R46
+R47
 R12
 R13
+!s100 ;Z0a7FeNCFJnU;]T2Jd8H3
+!i10b 1
 Epc
-Z47 w1422908408
+Z48 w1422908408
 R15
 R3
 R4
 R5
-Z48 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd
-Z49 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd
+Z49 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd
+Z50 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd
 l0
 L6
 Ve@eZZk2hAXKE2N:1c@MZo2
 R8
 32
-Z50 !s108 1422910351.578000
-Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd|
-Z52 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd|
+Z51 !s108 1422910351.578000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd|
+Z53 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd|
 R12
 R13
 !s100 ^^lT]3=M]APBSmz3;`O]]2
@@ -257,28 +257,28 @@ L12
 Vn<>WFH9GBEPzfOOmJ2mFS1
 R8
 32
-R50
 R51
 R52
+R53
 R12
 R13
 !s100 Sg846Fi23fMGePHn@C4UK2
 !i10b 1
 Eshiftleft2
-R47
+R48
 R3
 R4
 R5
-Z53 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShiftLeft2.vhd
-Z54 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/ShiftLeft2.vhd
+Z54 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShiftLeft2.vhd
+Z55 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/ShiftLeft2.vhd
 l0
 L6
 VN:V1TYi144bz3PFObINd_1
 R8
 32
-Z55 !s108 1422910352.041000
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShiftLeft2.vhd|
-Z57 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShiftLeft2.vhd|
+Z56 !s108 1422910352.041000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShiftLeft2.vhd|
+Z58 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShiftLeft2.vhd|
 R12
 R13
 !s100 E:ZL7CP@kee1G:eG21aBX1
@@ -292,28 +292,28 @@ L11
 VJDdn8Mo^6Oj;n_bZFI@:Q2
 R8
 32
-R55
 R56
 R57
+R58
 R12
 R13
 !s100 eSKTzCQCkno1BNBK2o;Cj2
 !i10b 1
 Eshiftleft2jump
-R47
+R48
 R3
 R4
 R5
-Z58 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd
-Z59 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd
+Z59 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd
+Z60 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd
 l0
 L5
 VJP=Ln:>Y]IHc_FY4goOiH0
 R8
 32
-Z60 !s108 1422910352.225000
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd|
-Z62 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd|
+Z61 !s108 1422910352.225000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd|
+Z63 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd|
 R12
 R13
 !s100 Q90Bf4>egF5^Q67`adX^A1
@@ -327,31 +327,31 @@ L13
 V?Nh]ZEi=3g[U71`kU5iQK2
 R8
 32
-R60
 R61
 R62
+R63
 R12
 R13
 !s100 PdF6Kmi?^jZz@CBc=Yj`k3
 !i10b 1
 Esignextend
-R47
+R48
 R15
 R16
 R17
 R3
 R4
 R5
-Z63 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd
-Z64 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd
+Z64 8C:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd
+Z65 FC:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd
 l0
 L7
 VFGWkOaNIOj@m_7FeQo0n03
 R8
 32
-Z65 !s108 1422910351.723000
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd|
-Z67 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd|
+Z66 !s108 1422910351.723000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd|
+Z68 !s107 C:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd|
 R12
 R13
 !s100 PbPYDGfJH]Y;:PA[3Uhik0
@@ -368,9 +368,9 @@ L14
 VN:K;1NaSDBEK]LBQJ:aGS2
 R8
 32
-R65
 R66
 R67
+R68
 R12
 R13
 !s100 9[UNh^;XXBd0;e^Z6<e:Q1
