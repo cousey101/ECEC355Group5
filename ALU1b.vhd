@@ -11,35 +11,45 @@ port(
 end ALU1b;
 
 ARCHITECTURE beh of ALU1b is
+signal ainv_out, binv_out : std_logic;
+signal muxin : std_logic_vector(3 downto 0);
+
   component ADD1b is
 		port(	A, B, cIn:in STD_LOGIC;
 				  Sum, cO :out STD_LOGIC );
+  end component;
+	
+	component MUXInvert is
+	generic (m : natural := 1);
+	port(	x: in std_logic_vector(0 to 2**m - 1); 
+			z: out std_logic; 
+			s: in std_logic_vector(m-1 downto 0));
 	end component;
-	component muxAinv is
-		port(	x : in STD_LOGIC_VECTOR(1 downto 0);
-				  s : in STD_LOGIC;
-				  y : out STD_LOGIC );
+	
+	component MUX3 is
+	generic (m : natural := 2);
+	port(	x: in std_logic_vector(0 to 2**m - 1); 
+			z: out std_logic; 
+			s: in std_logic_vector(m-1 downto 0));
 	end component;
-	component muxBinv is
-		port(	x : in STD_LOGIC_VECTOR(1 downto 0);
-				  s : in STD_LOGIC;
-				  y : out STD_LOGIC );
-	end component;
-	component muxOper is
-		port(	x : in STD_LOGIC_VECTOR(3 downto 0);
-		      s : in STD_LOGIC_VECTOR(1 downto 0);
-				  y : out STD_LOGIC );
-	end component;
+
 	component OR2 is
-		port(	A, B :in STD_LOGIC;
-				  y :out STD_LOGIC );
+		port( x, y : in std_logic;
+		  z : out std_logic);
 	end component;
+	
 	component AND2 is
-		port(	A, B : in STD_LOGIC;
-				  y :out STD_LOGIC );
+		port( x, y : in std_logic;
+		  z : out std_logic);
 	end component;
-	signal Sum:STD_LOGIC;
-	signal sumCOut:STD_LOGIC;
+
 begin  
-  ADD:ADD1b port map(A,B,Sum,sumCOut);  
+  muxin(3) <= less;
+  MuxAinv : MUXInvert port map(a, ainv, ainv_out); 
+  MuxBinv : MUXInvert port map(b, binv, binv_out);
+  Muxin0  : AND2 port map(ainv_out, binv_out, muxin(0));
+  Muxin1  : AND2 port map(ainv_out, binv_out, muxin(1));
+  ADDER   : ADD1b port map(ainv_out, binv_out, cIn, muxin(2), COut);
+  OpperMUX: MUX3 port map(muxin, result, opper);
+
 end beh;
