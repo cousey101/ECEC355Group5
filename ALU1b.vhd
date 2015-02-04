@@ -7,7 +7,7 @@ entity ALU1b is
 port(
 	a,b,aInv,bInv,less,cIn:in STD_LOGIC;
 	oper: in STD_LOGIC_VECTOR(1 downto 0);
-	result,cOut:out STD_LOGIC );
+	result,cOut, set:out STD_LOGIC );
 end ALU1b;
 
 ARCHITECTURE beh of ALU1b is
@@ -51,5 +51,5 @@ begin
   Muxin1  : AND2 port map(ainv_out, binv_out, muxin(1));
   ADDER   : ADD1b port map(ainv_out, binv_out, cIn, muxin(2), COut);
   OpperMUX: MUX3 port map(muxin, result, opper);
-
+  set <= muxin(2);
 end beh;
