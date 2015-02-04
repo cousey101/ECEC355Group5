@@ -1,18 +1,11 @@
-C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd
+C:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd
 Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity OR2
--- Compiling architecture beh of OR2
-
-} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd
-Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity ShiftLeft2Jump
--- Compiling architecture ShfLft2Jump of ShiftLeft2Jump
+-- Loading package NUMERIC_STD
+-- Compiling entity PC
+-- Compiling architecture ProgramCounter of PC
 
 } {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShiftLeft2.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShiftLeft2.vhd
 Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
@@ -22,32 +15,43 @@ Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
 -- Compiling entity ShiftLeft2
 -- Compiling architecture ShLf2 of ShiftLeft2
 
-} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/PC.vhd
+} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/ShLf2Jump.vhd
 Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
+-- Compiling entity ShiftLeft2Jump
+-- Compiling architecture ShfLft2Jump of ShiftLeft2Jump
+
+} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/OR2.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity OR2
+-- Compiling architecture beh of OR2
+
+} {} {}} C:/Users/msp72/GitHub/ECEC355Group5/ALU1b.vhd {0 {vcom -work work -2002 -explicit -vopt {C:\Users\msp72\GitHub\ECEC355Group5\ALU1b.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
 -- Loading package NUMERIC_STD
--- Compiling entity PC
--- Compiling architecture ProgramCounter of PC
+-- Compiling entity ALU1b
+-- Compiling architecture beh of ALU1b
+** Error: C:\Users\msp72\GitHub\ECEC355Group5\ALU1b.vhd(48): Signal "a" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:\Users\msp72\GitHub\ECEC355Group5\ALU1b.vhd(48): Cannot assign to object "aInv" of mode IN.
+** Error: C:\Users\msp72\GitHub\ECEC355Group5\ALU1b.vhd(48): Signal "ainv_out" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:\Users\msp72\GitHub\ECEC355Group5\ALU1b.vhd(49): Signal "b" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:\Users\msp72\GitHub\ECEC355Group5\ALU1b.vhd(49): Cannot assign to object "bInv" of mode IN.
+** Error: C:\Users\msp72\GitHub\ECEC355Group5\ALU1b.vhd(49): Signal "binv_out" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:\Users\msp72\GitHub\ECEC355Group5\ALU1b.vhd(53): (vcom-1136) Unknown identifier "opper".
 
-} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd
-Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity MUX2
--- Compiling architecture Behavioral of MUX2
+** Error: C:\Users\msp72\GitHub\ECEC355Group5\ALU1b.vhd(55): VHDL Compiler exiting
 
-} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/ADD1b.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/ADD1b.vhd
-Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity ADD1b
--- Compiling architecture beh of ADD1b
-
-} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd
+} {11.0 18.0 19.0 20.0} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/SE.vhd
 Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -58,13 +62,21 @@ Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
 -- Compiling entity SignExtend
 -- Compiling architecture SE of SignExtend
 
-} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd
+} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/ADD1b.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/ADD1b.vhd
 Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity MUX3
--- Compiling architecture Behavioral of MUX3
+-- Compiling entity ADD1b
+-- Compiling architecture beh of ADD1b
+
+} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX2.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX2
+-- Compiling architecture Behavioral of MUX2
 
 } {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/And2.vhd
 Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
@@ -73,5 +85,13 @@ Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
 -- Loading package std_logic_1164
 -- Compiling entity AND2
 -- Compiling architecture beh of AND2
+
+} {} {}} C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/msp72/Documents/GitHub/ECEC355Group5/MUX3.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX3
+-- Compiling architecture Behavioral of MUX3
 
 } {} {}}
