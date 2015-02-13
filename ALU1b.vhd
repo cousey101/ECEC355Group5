@@ -37,7 +37,10 @@ ARCHITECTURE beh of ALU1b is
                     port( x, y : in std_logic;
                         z : out std_logic);
                 end component;
-
+                component SLT is
+                    port( a, b : in STD_LOGIC;
+                        less_than : out STD_LOGIC);
+                end component
 begin  
     g0 : for j in 0 downto 0 generate
         muxin(3) <= less;
@@ -46,6 +49,7 @@ begin
         Muxin0  : AND2 port map (ainv_out, binv_out, muxin(0));
         Muxin1  : OR2 port map(ainv_out, binv_out, muxin(1));
         ADDER   : ADD1b port map(ainv_out, binv_out, cIn, muxin(2), COut);
+        Muxin3  : SLT port map(ainv_out, binv_out, muxin(3));
         OperMUX: MUX3 port map(muxin, result, oper);
     end generate g0;
                                             
