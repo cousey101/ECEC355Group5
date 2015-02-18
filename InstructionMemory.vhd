@@ -1,9 +1,16 @@
+--Basically you create an array of all the instructions. divided into groups of 1 instruction ( 32 bits )
+--the instructions are further subdivided into 4 groups for readabilitiy.
+--the address is coverted to an integer at the end and points to a location in the array of instructions.
+--the read data vector is built from the position of r to r+3 (that's 32 bits)
+--edit the instructions hardcoded into this vhd file to change the behavior (it doesn't read from some text file or w/e) 
+--check the test vectors the teacher wants to  give us against the memArray instructions first to see if it needs to be modified.
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_arith.ALL;
 entity InstructionMemory is
 port(Address:in std_logic_vector(31 downto 0);
-ReadData:out std_logic_vector(31 downto 0));
+	ReadData:out std_logic_vector(31 downto 0));
 end InstructionMemory;
 architecture Behavioral of InstructionMemory is
 type mem is array(0 to 256) of std_logic_vector(7 downto 0);
