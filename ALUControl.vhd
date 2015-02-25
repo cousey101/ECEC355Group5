@@ -9,7 +9,7 @@ entity ALUControl is
 	end ALUControl;
 
 Architecture struc of ALUControl is
-begin;
+begin
 
 process(ALUop)
 begin
@@ -28,9 +28,11 @@ case ALUOp is
 		elsif ALUfunct = "101010" then
 			ALUCtr <= "0111";
 		else
-			null;
+			ALUCtr <= "UUUU";
 		end if;
-	when other => ALUCtr <= null;
+	when others => ALUCtr <= "UUUU";
 end case;
 
 end process;
+
+end struc;
